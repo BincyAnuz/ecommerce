@@ -40,8 +40,8 @@ const ProductDetails = () => {
 
           
           <div className="flex items-center mt-4">
-            <p className="text-3xl font-semibold text-blue-600">${product.price}</p>
-            <p className="ml-4 text-yellow-500 font-medium">
+            <p className="text-xl font-semibold text-green-600">${product.price}</p>
+            <p className="ml-4 text-black-500 font-medium">
               ⭐ {product.rating} / 5
             </p>
           </div>
@@ -53,7 +53,7 @@ const ProductDetails = () => {
 
           <button
             onClick={handleAddToCart}
-            className="mt-6 bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition duration-300"
+            className="mt-6 bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition duration-300"
           >
             Add to Cart
           </button>
