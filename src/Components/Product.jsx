@@ -6,6 +6,7 @@ const Product = ({ product }) => {
   const { addToCart } = useContext(CartContext);
 
   const handleAddToCart = () => {
+    alert("clicked")
     addToCart(product);
   };
 

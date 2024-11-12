@@ -28,6 +28,7 @@ const Home = () => {
       <SearchBar onSearch={handleSearch} />
       <ProductList products={filteredProducts} />
       <Footer/>
+      
     </div>
   );
 };
